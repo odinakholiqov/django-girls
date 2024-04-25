@@ -4,6 +4,6 @@ services:
   web:
     # build: .
     image: odinakholiqov/django-girls:v2
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:9876
     ports:
       - 9876:9876
